@@ -1,0 +1,21 @@
+.task{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin: 10px 0;
+
+    border: 0.5px solid burlywood;
+    padding: 10px;
+}
+
+.task > span {
+    width: 80%;
+    text-align: left;
+}
+
+.editButton{
+    display: flex;
+    width: 20%;
+    text-align: right;
+    justify-content: space-between;
+}
